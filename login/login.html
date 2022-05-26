@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/64d58efce2.js"></script>
+  <link rel="stylesheet" href="login.css" />
+  <link rel="shortcut icon" href="/Img/logo.png" type="image/x-icon">
+  <title>Inicia sesión o Registrate</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="forms-container">
+
+
+
+      <!-- SECCION DE INGRESO (LOGIN) -->
+      <div class="ingreso">
+
+        <form action="" id="frm-Login" class="ingresar">
+          <h2 class="title">Login</h2>
+
+          <div class="inputs">
+            <i class="fas fa-user"></i>
+            <input id="userName" type="text" placeholder="Usuario" maxlength="25" minlength="4"/>
+          </div>
+
+          <div class="inputs">
+            <i class="fas fa-lock"></i>
+            <input id="Password" type="password" placeholder="Contraseña" maxlength="20" minlength="4"/>
+          </div>
+
+          <button value="Login" class="btn2">Login</button>
+        
+
+        </form>
+
+
+        <!-- SECCION DE REGISTRO -->
+
+
+        <form action="" id="frm-register" class="registrarse">
+
+          <h2 class="title">Registrate</h2>
+
+          <div class="inputs">
+            <i class="fas fa-user"></i>
+            <input id="fullName"  type="text" placeholder="Nombre" maxlength="25" minlength="5"/>
+          </div>
+
+
+          <div class="inputs">
+            <i class="fas fa-envelope"></i>
+            <input id="cellphone" type="text" placeholder="Teléfono" maxlength="10" minlength="10"/>
+          </div>
+
+          <div class="inputs">
+            <i class="fas fa-envelope"></i>
+            <input id="email" type="email" placeholder="Correo electronico" maxlength="35" minlength="2"/>
+          </div>
+
+          <div class="inputs">
+            <i class="fas fa-lock"></i>
+            <input id="password" type="password" placeholder="Contraseña" maxlength="20" minlength="4"/>
+          </div>
+
+          <div class="inputs">
+            <i class="fas fa-lock"></i>
+            <input id="confirmPassword" type="password" placeholder="Confirmar Contraseña" maxlength="20" minlength="4"/>
+          </div>
+
+          <input class="btn" type="submit" value="Resgistrar"/>
+          
+        
+        </form>
+
+      </div>
+    </div>
+
+
+    <!-- SECCION DE ANIMACIONES -->
+    <div class="panels-container">
+      <div class="panel left-panel">
+        <div class="content">
+          <h3>¿Nuevo Aquí?</h3>
+          <p>
+            Crea una cuenta para que te enteres de nuestras últimas novedades.
+          </p>
+          <button class="btn transparent" id="sign-up-btn">
+            Registrarse
+          </button>
+
+        </div>
+        <img class="image" src="images/login1.gif" alt="">
+
+
+      </div>
+      <div class="panel right-panel">
+        <div class="content">
+          <h3>¿Ya tienes una cuenta?</h3>
+          <p>
+            Ingresa tu nombre de usuario y contraseña para que disfrutes de todo el contenido disponible.
+          </p>
+          <button class="btn transparent" id="sign-in-btn">
+            Inicia sesión
+          </button>
+
+        </div>
+        <img src="images/giphy (1).gif" class="image" id="image2" alt="" />
+      </div>
+
+    </div>
+  </div>
+
+  <script src="login.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
